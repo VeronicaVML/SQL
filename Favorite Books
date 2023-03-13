@@ -1,0 +1,22 @@
+CREATE TABLE books (id INTEGER PRIMARY KEY, author TEXT, title TEXT, year INTEGER, sequel_id INTEGER);
+
+INSERT INTO books (id, author, title, year, sequel_id)
+VALUES (1, "J. K. Rowling", "Harry Potter and the Goblet of Fire", 2000, 1);
+INSERT INTO books (id, author, title, year, sequel_id)
+VALUES (2, "Suzanne Collins", "The Hunger Games", 2009, 5);
+INSERT INTO books (id, author, title, year, sequel_id)
+VALUES (3, "F. Scott Fitzgerald", "The Great Gatsby", 1925, 8);
+INSERT INTO books (id, author, title, year, sequel_id)
+VALUES (4, "James Dashner", "The Maze Runner", 2009, 7);
+INSERT INTO books (id, author, title, year, sequel_id)
+VALUES (5, "Stephenie Meyer", "Twilight", 2005, 2);
+INSERT INTO books (id, author, title, year, sequel_id)
+VALUES (6, "Audrey Niffenegger", "The Time Traveler's Wife", 2003, 10);
+INSERT INTO books (id, author, title, year, sequel_id)
+VALUES (7,"Lois Lowry", "The Giver", 1993, 3);
+INSERT INTO books (id, author, title, year, sequel_id)
+VALUES (8, "Jane Austen", "Sense and Sensibility", 1811, 6);
+INSERT INTO books (id, author, title, year, sequel_id)
+VALUES (9, "Liane Moriarty", "Big Little Lies", 2014, 4);
+INSERT INTO books (id, author, title, year, sequel_id)
+VALUES (10, "John Green", "The Fault in Our Stars", 2012, 9);
